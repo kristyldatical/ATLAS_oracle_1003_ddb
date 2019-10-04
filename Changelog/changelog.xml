@@ -1,2 +1,13 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
-<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd"/>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:appdba="http://www.datical.net/xml/ns/appdba" xmlns:datical="http://www.datical.net/xml/ns/datical" xmlns:storedlogic="http://www.datical.net/xml/ns/storedlogic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" logicalFilePath="Changelog/changelog.xml" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet appdba:scriptChecksum="a85425ff223ba57365ba2b6a20236f57" author="Administrator (generated)" created="2019-10-04 19:20+0000" datical:origFileName="my_table.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="jsf7-1 (createTable tableName=MY_TABLE_3)" labels="my_table.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable schemaName="ATLAS_SCHEMA_A" tableName="MY_TABLE_3">
+            <column name="ID" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="03645dcf05091500efbd0c594d27a9a7" author="Administrator (generated)" created="2019-10-04 19:20+0000" datical:origFileName="my_table_2.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="jvxo-1 (createTable tableName=MY_TABLE_2)" labels="my_table_2.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable schemaName="ATLAS_SCHEMA_A" tableName="MY_TABLE_2">
+            <column name="ID" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
