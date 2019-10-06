@@ -10,4 +10,9 @@
             <column name="ID" type="NUMBER(*, 0)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="a8ebfa8abd85e4ce1996baf0863dd769" author="Administrator (generated)" created="2019-10-04 19:52+0000" datical:origFileName="my_table_4.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="ornd-1 (createTable tableName=MY_TABLE_4)" labels="my_table_4.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable schemaName="ATLAS_SCHEMA_A" tableName="MY_TABLE_4">
+            <column name="ID" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
