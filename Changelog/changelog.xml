@@ -25,4 +25,9 @@
             <column name="ID" type="NUMBER(*, 0)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="a8a527814c055ab140920274a491dcd7" author="Administrator (generated)" created="2019-10-09 01:33+0000" datical:origFileName="my_table_7.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="muoe-1 (createTable tableName=MY_TABLE_7)" labels="my_table_7.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable schemaName="ATLAS_SCHEMA_A" tableName="MY_TABLE_7">
+            <column name="ID" type="NUMBER(*, 0)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
